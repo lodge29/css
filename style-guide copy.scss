@@ -8,7 +8,7 @@
 // color palette - these colors will be the color swatches of the Colors section
 /*
 $color-1: #5f8ee4; // Cornflower Blue - Action color
-$color-2: #19191a; // Dark Blue BLUE BLUE BLUE
+$color-2: #19191a; // Dark
 $color-3: #e4655f; // Red
 $color-4: #e6e6e6; // light grey
 $color-5: #ffffff; // white
@@ -23,9 +23,9 @@ $primary-font: 'Merriweather', serif;
 $secondary-font: 'Open Sans', sans-serif;
 */
 
-/* -------------------------------- 
+/* --------------------------------
 
-xBackground 
+xBackground
 
 -------------------------------- */
 
@@ -34,7 +34,7 @@ body {
   background-color: $color-5;
 }
 
-/* -------------------------------- 
+/* --------------------------------
 
 xPatterns
 
@@ -49,9 +49,9 @@ xPatterns
   padding: 6px;
 }
 
-/* -------------------------------- 
+/* --------------------------------
 
-xNavigation 
+xNavigation
 
 -------------------------------- */
 
@@ -136,9 +136,9 @@ header {
   }
 }
 
-/* -------------------------------- 
+/* --------------------------------
 
-xPage title 
+xPage title
 
 -------------------------------- */
 
@@ -151,11 +151,11 @@ main > h1 {
   }
 }
 
-/* -------------------------------- 
+/* --------------------------------
 
 xTypography - created partial file for this!
 
--------------------------------- 
+--------------------------------
 
 h1,
 h2 {
@@ -190,7 +190,7 @@ h2 {
 }
 
 section > h2::before {
-   number before each section title 
+   number before each section title
   color: darken($color-4, 15%);
 }
 
@@ -211,9 +211,9 @@ p {
 }
 */
 
-/* -------------------------------- 
+/* --------------------------------
 
-xButtons 
+xButtons
 
 -------------------------------- */
 
@@ -275,20 +275,20 @@ xButtons
   color: $color-1;
 }
 
-/* -------------------------------- 
+/* --------------------------------
 
 xIcons DO NOT NEED
 
 -------------------------------- */
 
 .cd-icons li {
-  // icons size 
+  // icons size
   width: 32px;
   height: 32px;
 }
 
 
-/* -------------------------------- 
+/* --------------------------------
 
 xForm //DO NOT NEED
 
@@ -342,7 +342,7 @@ input[type='checkbox'] {
 
   &::before,
   &::after {
-    // custom radio and check boxes 
+    // custom radio and check boxes
     content: '';
     display: block;
     width: 16px;
@@ -386,7 +386,7 @@ input[type='checkbox']:checked + label::after {
 }
 
 .cd-select::after {
-  // switcher arrow for select element 
+  // switcher arrow for select element
   content: '';
   position: absolute;
   z-index: 1;
